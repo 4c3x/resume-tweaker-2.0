@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,4 +21,28 @@
   </div>
   <script src="popup.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Tweaker</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="pdf.js"></script>
+  <script src="mammoth.browser.js"></script>
+  <script src="jspdf.min.js"></script>
+  <script src="docx.min.js"></script>
+</head>
+<body>
+  <h1>Resume Tweaker</h1>
+  <input type="file" id="resume" accept=".pdf,.docx">
+  <textarea id="jobDesc" placeholder="Paste job description here"></textarea>
+  <button id="tweakBtn">Tweak Resume</button>
+  <pre id="tweakedOutput"></pre>
+  <div id="output">
+    <button id="downloadPdf">Download PDF</button>
+    <button id="downloadWord">Download Word</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+>>>>>>> Initial MVP
 </html>
